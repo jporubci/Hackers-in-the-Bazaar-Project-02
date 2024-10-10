@@ -32,14 +32,11 @@ You can also quit Docker Desktop to stop the app.
    ```
    sudo pacman -S docker docker-compose
    ```
-
 1. Add yourself to the `docker` group:
    ```
    sudo usermod -aG docker $USER
    ```
-
 1. Log out and log back in to refresh permissions.
-
 1. Start the docker service:
    ```
    sudo systemctl start docker
