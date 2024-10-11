@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#(title)</title>
+</head>
+
+<body>
+  <h1>#(title)</h1>
+  <p><strong>Character Details:</strong></p>
+  <p>Name: #(characterName)</p>
+  <p>Gender: #(characterGender)</p>
+  <p>Fighting Specialty: #(fightingSpecialty)</p>
+  <p>Armor Class: #(armorClass)</p>
+  <p>Home Planet: #(homePlanet)</p>
+  <br>
+  <p>The keyboard, as broken as it is, has seen a multitude of people just like you. You hope you won't be the last one.</p>
+  <p>The guard escorts you further down the halls, as they get wider and more elaborate, etched with marble and grandiose depictions of games past. You recognize one of the murals as Hexar, a legend in your world. Never lost a single fight. He was a laser trident specialist, and was so beloved that his freedom was expressly called for on retirement by The Emperor himself.</p>
+  <p>You start to notice commoners, mainly families of the other inmates, talking with guards who are generally pissed about being down here, and not up there enjoying the bloody merriment. You are being marched directly towards Arce de Victorius, bypassing the other holding cells that house people from every section of the empire, and some from places that are about to be part of it.</p>
+  <p>The Arch is beautiful, white and red marble interlaced with banners held by light fixtures. It is absolutely ginormous, maybe over 200 feet tall, and you can see the orange sunlight beaming through it.</p>
+  <p>You are forced into a line behind around 200 other inmates. The variety of people is dulled by the monotony of the dark inmate regalia. The person in front of you's back spikes ripped a hole in the shirt what looks like a long time ago. You can hear her grunt with discomfort as the line is pushed forwards.</p>
+  <p>As you pass through the Arch, your ears start ringing due to the sheer volume. The crowd roars as they see the hundreds of inmates pour into the arena. There are definitely more than a million people in attendance, maybe more with the new expansions. The band starts with the sound of an extremely distorted electric guitar, booming into your ears as you look around. This is it, you tell yourself. This might be where you die.</p>
+</body>
+</html>
