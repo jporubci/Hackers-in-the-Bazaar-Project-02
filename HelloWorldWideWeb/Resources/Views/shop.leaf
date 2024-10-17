@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#(title)</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    function setUrl() {
+      document.getElementById('url').value = window.location.href;
+    }
+  </script>
+</head>
+<body>
+  <h1>#(title)</h1>
+  <h3><strong>Character Details:</strong></h3>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>#(characterName)</td>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <td>#(characterGender)</td>
+    </tr>
+    <tr>
+      <th>Fighting Specialty</th>
+      <td>#(fightingSpecialty)</td>
+    </tr>
+    <tr>
+      <th>Armor Class</th>
+      <td>#(armorClass)</td>
+    </tr>
+    <tr>
+      <th>Home Planet</th>
+      <td>#(homePlanet)</td>
+    </tr>
+    <tr>
+      <th>Weapon</th>
+      <td>#(weapon)</td>
+    </tr>
+    <tr>
+      <th>Money</th>
+      <td>#(money)</td>
+    </tr>
+    <tr>
+      <th>Inventory</th>
+      <td>#(inventory)</td>
+    </tr>
+  </table>
+  <br>
+  #if(choice == "option1"):
+    <p>You know that your gladiators need a leader, and one that wants to save them from dying in this brutalistic humiliating nightmare.</p>
+    <p>You emerge from behind the rock and take a look at your situation as the sounds of electric guitar and macabe screams rattle your ears further.</p>
+    <p>To the left of the castle you spot glistening armor. "LEFT CASTLE, GO GO GO" you yell at your countrymen.</p>
+    <p>The ones that hear rush in front of you, forming a human barricade, shoulder to shoulder, and start advancing slowly, using whatever mud-scuttled debris they could find as shields and other armament.</p>
+    <p>About 50 meters ahead you can see a small arm poking from behind the left brick of a wall, firing a lazer stun gun blindly around the corner. You can hear the shots pinging off of the audience force barrier behind you. Even blind, one of the shots blisters straight through one of your battalion's heads as they fall to the ground. Lucky shot, finding a home right in the square face hole in the center of the helmet they were wearing.</p>
+    <p>You remember your first encounter with a stun gun. As you march forward over their body, you recall at six years old when you saw a dissenter get disfigured and their chest shattered by one in a public square by a riot guard.Stun really isn't the right word.</p>
+    <p>Maybe the older models stunned, you think to yourself. Thank god they were laser, and not plasma, or else they could go through the armor efforlessly. It is the only thing that makes these types of weapons remotely 'fair'.</p>
+    <br>
+    <p>Your group encloses on the castle, and you spot a purple shimmering on your side of the wall. You rush to it, just as a green glove connects with your right cheek. You stumble backwards and lash out with your <weapon>.</p>
+    <p>You feel it pass through the stomach of the oppressor as you glance at the purple item. Your vision is shaky, as the healthy dose of head trauma would have you know, but you see that the purple weapon is a laser trident, like that of Hexar legend.</p>
+    <p>You take it, and as it enters your hand it reacts, springing to life as the three prongs extend forward with a deep purple glow before stopping at around a foot each. The crowd erupts in raucous delight as the overhead scoreboard is updated. You forgot it was there, as you see that you now have a K/D of 1/0. Great, you think to yourself. Gharta is at 4/0.</p>
+    <br>
+    <p>You and your comrades push forth past the wall, as you take the lead and start charging. You don't know what has gotten into you, but you don't care. You want to either die and be free or be done with this forsaken battle.</p>
+    <p>Gharta spots you, and in a language you don't understand, starts barking orders at her legion.</p>
+    <p>You have no time for this. You must act now.</p>
+    <p>Your gladiators fire off a couple of shots, disintegrating one Ganinite's arm and pinging off the armor of another.</p>
+    <p>You are so filled with adrenaline that you cannot hear your own shrieking as you start your engagement with Gharta.</p>
+    <p>She is wielding a mace, but instead of spikes at the end of the ball are a multitude of neon green plasma spikes.</p>
+    <p>You barely run out of the way as an arrow from the back lines accompanies the mace swing at you.</p>
+    <p>Another swing wooshes by your head, slicing a piece of the crown off and into the dirt.</p>
+    <p>The swings come furious, as Gharta raises the mace and delivers an overhead blow. You collect your trident in both hands and raise it horizontally, stopping the blow.</p>
+    <p>This wraps the plasma mace around the gilded trident, and you pull Gharta toward you.</p>
+    <p>She drops the mace and her crown as you send a knee to her skull, and in one swift motion you swipe your mace-wrapoped trident at her legs.</p>
+    <br>
+    <p>The crowd explodes in roars louder than any time today, but you cannot hear it as the sharp sound of Gharta's smouldering legs pierces through the screaming.</p>
+    <p>You know the gladiator etiquette as you disconnect the wrapped mace from your trident, holding it close to the downed Gharta. No other Ganinite legionaire wants to befall the same fate, as they outnumbered, slowly lower their weapons.</p>
+    <p>Your ears finally come back to you as the adrenaline subsides slightly. You hear Lars announce the Emperor's decision to be made.</p>
+    <p>The Emperor appears in hologram form, around 6'5" and burly, right next to you.</p>
+    <p>He says nothing. He looks at you. You feel a rush of intense emotions you cannot dissect as he looks at you.</p>
+    <p>All you can focus on is his thumb, pointing downwards.</p>
+    <p>You oblige.</p>
+    <br>
+    <p>After the fight is cleaned and you are escorted back through the Arch, you are given a dusty sack filled with 499 rusted gold coins. You rush to the nearest dilapidated deposit station, where it takes your blood sample and then the coins. You are then promptly re-cuffed and sent back to your cell.</p></p>
+    <p>After a week of imprisonment, you feel that your body is agile and somewhat healthy again.</p>
+    <p>You ask the guard outside of your cell if you could access the Mox Copona.</p>
+    <p>He begrugingly accepts, as he opens the cell, cuffs you, and walks you down the hall and across the stadium to the shop.</p>
+    <p>"Well well well, if it isn't #(characterName) rolling through my shop again. What happened to your crown?" Brax chuckles to himself as your cuffs are removed and the guard stands in the marble doorway.</p>
+    <p>"You know you're making quite a fuss in the gladiator world. People can't decide what to think about you" he mutters, as you head to the screen terminal.</p>
+    <p>"I need better supplies. I nearly died out there last time," you say as Brax nods.</p>
+    <p>"You don't need to tell me. The whole empire saw," Brax remarks.</p>
+    <p>"Good luck next time. You are going to need it. HAHAHAHA!" You hear Brax laugh as you are cuffed and walked back to your cell.</p>
+  #endif
+  #if(choice == "option2"):
+    <p>You escape from the rock and rush to another one, closer to the smouldering castle. Your battalion is staring at you, but oblige to do the same.</p>
+    <p>About 50 meters ahead you can see a small arm poking from behind the left brick of a wall, firing a lazer stun gun blindly around the corner. You can hear the shots pinging off of the audience force barrier behind you. Even blind, one of the shots blisters straight through one of your battalion's heads as they fall to the ground. Lucky shot, finding a home right in the square face hole in the center of the helmet they were wearing.</p>
+    <p>You remember your first encounter with a stun gun. As you march forward over their body, you recall at six years old when you saw a dissenter get disfigured and their chest shattered by one in a public square by a riot guard.Stun really isn't the right word.</p>
+    <p>Maybe the older models stunned, you think to yourself. Thank god they were laser, and not plasma, or else they could go through the armor efforlessly. It is the only thing that makes these types of weapons remotely 'fair'.</p>
+    <br>
+    <p>Your group encloses on the castle, and you spot a blue shimmering on your side of the wall. You rush to it, just as a green glove connects with your right cheek. You stumble backwards and lash out with your <weapon>.</p>
+    <p>You feel it pass through the stomach of the oppressor as you glance at the blue item. Your vision is shaky, as the healthy dose of head trauma would have you know, but you see that the blue weapon is a curved energy sword.</p>
+    <p>You take it, and as it enters your hand it reacts, springing to life as the blade extends forward with a deep blue glow before stopping at around three feet. The crowd gives a solid 'oooooo' as the overhead scoreboard is updated. You forgot it was there, as you see that you now have a K/D of 1/0. Great, you think to yourself. Gharta is at 10/0.</p>
+    <p>You deactivate the sword and put it in your pocket. It is not more useful than your <weapon>.</p>
+    <br>
+    <p>You and your comrades push forth past the wall, as you take the lead and start charging. You don't know what has gotten into you, but you don't care. You want to either die and be free or be done with this forsaken battle.</p>
+    <p>Gharta spots you, and in a language you don't understand, starts barking orders at her legion.</p>
+    <p>You have no time for this. You must act now.</p>
+    <p>Your gladiators fire off a couple of shots, disintegrating one Ganinite's arm and pinging off the armor of another.</p>
+    <p>You are so filled with adrenaline that you cannot hear your own shrieking as you start your engagement with Gharta.</p>
+    <p>She is wielding a mace, but instead of spikes at the end of the ball are a multitude of neon green plasma spikes.</p>
+    <p>You barely run out of the way as an arrow from the back lines accompanies the mace swing at you.</p>
+    <p>Another swing wooshes by your head, slicing a piece of the crown off and into the dirt.</p>
+    <p>The swings come furious, as Gharta raises the mace and delivers an overhead blow. You collect your <weapon> and raise it horizontally.</p>
+    <br>
+    <p><Your weapon> disintegrates as one of the prongs of the mace slices through the handle of <your weapon>.</p>
+    <p>Your stomach drops into your abdomen as a viscious Gharta kick breaks a couple of your ribs at the same time.</p>
+    <br>
+    <p>The crowd explodes in roars louder than any time today, but you cannot hear it as the sharp sound of Gharta's screaming echoes through the arena.</p>
+    <p>You know the gladiator etiquette as your team starts to lower their weapons, staring at the sliced crown in the dirt.</p>
+    <p>Your ears finally come back to you as the adrenaline subsides slightly. You hear Lars announce the Emperor's decision to be made.</p>
+    <p>The Emperor appears in hologram form, around 6'5" and burly, right above you.</p>
+    <p>He says nothing. He looks at you. You feel a rush of intense emotions you cannot dissect as he looks at you.</p>
+    <p>All you can focus on is his thumb, pointing upwards.</p>
+    <br>
+    <p>Gharta continues screaming, yet this time at the emperor. She obviously does not like that he spared one of his own, especially in as important of a battle as this one.</p>
+    <p>In a rage, she raises her mace over her head to deliver your final blow anyways. You embrace death quickly, as you have already mourned your life far before coming to this moment. You close your eyes.</p>
+    <p>The only thing you hear however, is a loud thud. You slowly squint open your eyes to see Gharta covered in blood, lifeless in the dirt, headless. You look at the emperor, just to see him sheathe a bloodied holographic greatsword. His hologram dissipates as the audience booms.</p>
+    <br>
+    <p>After the fight is cleaned, you are medically attended to with frezeron insta-healer, a cold misty substance that always leaves a metallic taste in your mouth and never heals you as much as you wish it did. Then, you are escorted back through the Arch and are given a dusty sack filled with 50 rusted gold coins. You rush to the nearest dilapidated deposit station, where it takes your blood sample and then the coins. You are dismayed at the miserable outcome of the fight, and you still are nursing your slightly bandaged broken ribs.</p>
+    <p>You feel the weight of the energy sword still in your pocket. You think you can probably sell it to the gladiator shop vendor for at least something. The guard takes your sword during the pat-down and sends it to the long-term storage team. You are then promptly re-cuffed and sent back to your cell.</p>
+  #endif
+  <br>
+  <form action="/shop-form" method="POST" onsubmit="setUrl()">
+    <label for="choice">Choice:</label>
+    <select id="choice" name="choice" required>
+      <option value="" disabled selected></option>
+      <option value="option3">Buy Lightning Greaves - 50 gold</option>
+      <option value="option4">Buy Fission Chainsaw - 150 gold</option>
+      <option value="option5">Buy Plasma Katana - 150 gold</option>
+      <option value="option6">Buy Pargonian Chestplate - 300 gold</option>
+      <option value="option7">Buy Ganinite Helmet - 500 gold</option>
+      <option value="option8">Sell Energy Sword - +100 gold</option>
+      <option value="option9">Leave</option>
+    </select>
+    <input type="hidden" id="url" name="url">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

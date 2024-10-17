@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#(title)</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    function setUrl() {
+      document.getElementById('url').value = window.location.href;
+    }
+  </script>
+</head>
+<body>
+  <h1>#(title)</h1>
+  <h3><strong>Character Details:</strong></h3>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>#(characterName)</td>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <td>#(characterGender)</td>
+    </tr>
+    <tr>
+      <th>Fighting Specialty</th>
+      <td>#(fightingSpecialty)</td>
+    </tr>
+    <tr>
+      <th>Armor Class</th>
+      <td>#(armorClass)</td>
+    </tr>
+    <tr>
+      <th>Home Planet</th>
+      <td>#(homePlanet)</td>
+    </tr>
+    <tr>
+      <th>Weapon</th>
+      <td>#(weapon)</td>
+    </tr>
+    <tr>
+      <th>Money</th>
+      <td>#(money)</td>
+    </tr>
+    <tr>
+      <th>Inventory</th>
+      <td>#(inventory)</td>
+    </tr>
+  </table>
+  <br>
+  <p>You knew the day would come, and here it is. Over the cafeteria gladiator announcements, you hear</p>
+  <p>"There will be a large finale fight at the end of next week's games. It will determine the Max Scipuli for this arena"</p>
+  <p>You know how contentious of a title that is. It comes with a lot of fame, and the ability to meet the emperor, provided you had the earnings to afford it.</p>
+  <p>Everyone is anxious to hear will be called up. "#(characterName) will be the upcoming title fight, taking on the defending champ Rex Reptol"</p>
+  <p>The cafeteria erupts into chatter, and many mean looks are shot your way. You overhear "They didn't even do that good in the last fight!", "Maybe the emperor wants Rex to have an off week", and "It should be me!! I have a better record!!".</p>
+  <p>...</p>
+  <p>After a week of torment from your gladiator colleagues, you find yourself standing in the arena, ears ringing, once again.</p>
+  <p>You look down at your #(weapon) glistening in the brilliant artificial sun.</p>
+  <br>
+  <p>Lars is doing his big pre-show speech, appealing to the tired beurocrats as much as possible, as there has already been hours of fights that led to this moment.</p>
+  <p>You spot the emperor's box. You understand the terrors that he has done to members of the empire. You understand that it was his legion that enslaved you in the first place.</p>
+  <p>You are unprepared as you catch the tail end of Lars' giant hologram saying</p>
+  <p>"... to which no one has succeeded! HAHAHAHAHA! AND NOW, SPECIES ONE AND ALL, OUR TITLE FIGHT!"</p>
+  <p>General applause and hollering.</p>
+  <p>"IN THE RED CORNER, OUR NEW BLOOD! OUR GLADIATOR HOPEFUL! FROM #(homePlanet), HERE IS #(characterName)"</p>
+  <p>Instant boos and general distaste erupts from the stands. You can hear glasses and foodstuffs bouncing off of the inside of the audience force barrier behind you.</p>
+  <p>"AAAAAND IN THE GOLD CORNER. YOU KNOW HIM. YOU LOVE HIM. UNDEFEATED AND YOUR MAX SCIPULI, HE. IS. REX. REPTOOOOOOOOOOOOOOOOOOOL!!!!"</p>
+  <p>The crowd booms, as a "REX REX REX" chant starts that shakes the walls of the collesium.</p>
+  <p>"FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIGHT"</p>
+  <p>The shield lowers, and you see your adversary for the first time. He is about 100 yards away, and in between you and him is a bottomless pit, interspersed with hexagonal marble pillars. Each are about 5 feet across, with gracious space in the middle that leads down the dark pit. You cannot believe that this is how you will fight today.</p>
+  <p>You wonder how it will work if someone falls down. Won't they just die immediately? Won't the audience not see? How will the rules of gladiatorial combat apply?</p>
+  <p>You have thought that about a lot of things in the arena before, but this seems intentionally misleading.</p>
+  <br>
+  <p>As you ponder to yourself, you spot Rex, full sprint, bounding across the pillars like he was born on Keslar.</p>
+  <p>You grip <your weapon> tight as you are being pushed by the guard behind you onto the first pillar. You notice how some pillars have things on them.</p>
+  <p>You look to your right and see that the pillar next to you has a stun laser mine on it. You get a violent flashback to your time in the arena as a kid, where your first experience with gore was from someone stepping on one.</p>
+  <p>To your left is a pillar with a you-sized hole in the middle.</p>
+  <p>Rex is approaching.</p>
+  <br>
+  <form action="/second-battle-form" method="POST" onsubmit="setUrl()">
+    <label for="choice">Choice:</label>
+    <select id="choice" name="choice" required>
+      <option value="" disabled selected></option>
+      <option value="option1">Play defensive</option>
+      <option value="option2">Get creative</option>
+    </select>
+    <input type="hidden" id="url" name="url">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

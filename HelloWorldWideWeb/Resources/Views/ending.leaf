@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#(title)</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    function setUrl() {
+      document.getElementById('url').value = window.location.href;
+    }
+  </script>
+</head>
+<body>
+  <h1>#(title)</h1>
+  <h3><strong>Character Details:</strong></h3>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>#(characterName)</td>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <td>#(characterGender)</td>
+    </tr>
+    <tr>
+      <th>Fighting Specialty</th>
+      <td>#(fightingSpecialty)</td>
+    </tr>
+    <tr>
+      <th>Armor Class</th>
+      <td>#(armorClass)</td>
+    </tr>
+    <tr>
+      <th>Home Planet</th>
+      <td>#(homePlanet)</td>
+    </tr>
+    <tr>
+      <th>Weapon</th>
+      <td>#(weapon)</td>
+    </tr>
+    <tr>
+      <th>Money</th>
+      <td>#(money)</td>
+    </tr>
+    <tr>
+      <th>Inventory</th>
+      <td>#(inventory)</td>
+    </tr>
+  </table>
+  <br>
+  #if(choice == "option1"):
+    <p>You decide that the only way to beat an established gladiator like Rex is to play defensive.</p>
+    <p>You need to think fast.</p>
+    <p>You hop from pillar to pillar on your front, then right, then right, then left, as you find a pillar with a sandbag barrier ring to shelter behind.</p>
+    <br>
+    <p>You hear him yell "WOW, HOW NAIVE. COME AND FIGHT ME LIKE A GLADIATOR"</p>
+    <p>The crowd laughs at your defensive position.</p>
+    <p>You can see the yellow of his teeth grin as he approaches. He is now 3 hexes away, straight ahead. To the middle right is a stun mine hex, to the middle left is a brick wall hex with space on either side, and in the middle is a hex with a large hole in the middle. The rest of the hexes are standard.</p>
+    <br>
+    <p>Rex unsheathes his weapon. It appears at first to be a small metal pole, but as he grabs it with both hands, it extends out and shoots out a fiery red blade. It is a fluorescent Brimstone Scythe that dazzles in the fake sun. Bits of lightning shoot from the blade as the audience detonates into applause and screaming.</p>
+    <p>This is what they are here for.</p>
+    <br>
+    <p>As Rex jumps to the center platform, he approaches by shooting a bolt of lightning at your face that you duck. He perfectly lands on the ringed hex, and starts his assault. His scythe is long enough to reach you, and you deflect monstrous attack after brutal blow. The sandbags help, absorbing some of the brimstone lightning that shoots out on every meeting of the blades.</p>
+    <p>"HAHAHA, YOU WILL NEVER BE REMEMBERED MORTAL. YOU ARE A STATISTIC OF MY MAKING"</p>
+    <p>His scythe erupts to life, extending further into a ten foot long pole. The lightning crackles as one bolt jumps at you.</p>
+    <p>It hits your right hand, sending unimaginable pain down your arm and into your spine as you drop <your weapon>. It falls into the abyss below.</p>
+    <p>You don't have time to think as the scythe races at your head, which you barely jump out of the way of. You jump over the sandbags and to the left hex.</p>
+    <br>
+    <p>"RUNNING, ARE WE?" Rex commands as he jumps to the hex with the wall directly in front of you, effortlessly. Behind him, you see <your weapon> fall from the sky, and whiz past as it falls with great speed past Rex and into the same hole you dropped it into.</p>
+    <p>You feel heavy. You think your time is coming. You pray that it ends quick and painlessly. You look at your right hand, and see the red and black burn marks.</p>
+    <br>
+    <p>You then see the absence of your right hand as a scythe swipe tears it clean off.</p>
+    <p>You scream as you feel a rush of pain into your arm, and then right leg as he bolts you again.</p>
+    <p>You fall.</p>
+    <br>
+    <p>Through the abyss you see nothing but blackness, until it slowly gets brighter as you realize the marble and dirt floor is a hundred feet beneath you.</p>
+    <p>You bounce, and are incapacitated, but still are somehow conscious.</p>
+    <br>
+    <p>You imagine your life not as a slave. Not as a gladiator, but as someone free from the empire. As one of the final unconquored galaxial colonies do. You feel at peace.</p>
+    <p>Pain no longer exists in your mind, as the last thing you see is the emperor's downturned thumb, and a flash of brimstone.</p>
+    <br>
+    <h3><strong>YOU DIED.</strong></h3>
+  #endif
+  #if(choice == "option2"):
+    <p>You decide that the only way to beat an established gladiator like Rex is to think of anything crazy to throw him off.</p>
+    <p>You need to think fast.</p>
+    <p>You hop from pillar to pillar on your front, then right, then right, then left, as you find a pillar with a pile of rocks in the center.</p>
+    <p>You pray that they are normal rocks as you pick one up and start throwing them at Rex, who is still furiously hopping at you. You hope to catch him off balance on a dodge and send him into the pit.</p>
+    <br>
+    <p>You hear him yell "WOW, HOW NAIVE. COME AND FIGHT ME LIKE A GLADIATOR"</p>
+    <p>The crowd laughs at your futile efforts. You need to think more creative. You pack a rock in your pocket and start hopping directly at him.</p>
+    <p>You can see the yellow of his teeth grin as he approaches. You are now 3 hexess away. To the middle right is a stun mine hex, to the middle left is a brick wall hex with space on either side, and in the middle is a hex with a large hole in the middle. The rest of the hexes are standard.</p>
+    <br>
+    <p>You run and jump onto the middle hex. You almost lose your balance as the hole in the middle leaves only about a foot of space on the outside for footwork.</p>
+    <p>Rex unsheathes his weapon. It appears at first to be a small metal pole, but as he grabs it with both hands, it extends out and shoots out a fiery red blade. It is a fluorescent Brimstone Scythe that dazzles in the fake sun. Bits of lightning shoot from the blade as the audience detonates into applause and screaming.</p>
+    <p>This is what they are here for.</p>
+    <br>
+    <p>As Rex jumps to the center platform, he approaches with a swing that you duck. He perfectly lands on the ringed hex, and starts his assault. He tries to jam you with the butt of the scythe, but you deflect it as he whiffs the counterattack. You try to swing anything you have at him, but he jumps back to the original hex.</p>
+    <p>"HAHAHA, YOU WILL NEVER BE REMEMBERED MORTAL. YOU ARE A STATISTIC OF MY MAKING"</p>
+    <p>His scythe erupts to life, extending further into a ten foot long pole. The lightning crackles as one bolt jumps at you.</p>
+    <p>It hits your right hand, sending unimaginable pain down your arm and into your spine as you drop #(weapon). It falls into the abyss below.</p>
+    <p>You don't have time to think as the scythe races at your head, which you barely jump out of the way of. You jump to the hex with the wall, only able to see the hexes behind and to the sides of you, with a menacing red glow emanating from the northeast corner of the wall.</p>
+    <br>
+    <p>"HIDING, ARE WE?" Rex commands as he jumps to the center ring, effortlessly. Behind him, you see #(weapon) fall from the sky, and whiz past as it falls with great speed past Rex and into the same hole you dropped it into.</p>
+    <p>You feel heavy. You think your time is coming. You pray that it ends quick and painlessly. You look at your right hand, and see the red and black burn marks. Just past it however, you spot your right pocket.</p>
+    <br>
+    <p>You know how to win. You take the rock from your pocket, and with all your might throw it. Not at Rex, but at the landmine one hex away from the immenent danger.</p>
+    <p>The landmine detonates, shocking a large orange laser explosion that rattles your skull and evaporates the hex it was resting on.</p>
+    <p>The explosion sends out a foray of lasers, one of which hits Rex square in the back of the left thigh, shattering it as if it were made of ice.</p>
+    <p>The audience violently outbursts into boos and cheers, as Rex falls into the center of the ring hex.</p>
+    <p>As you watch him fall, you are cut off from vision as the floor recreates itself beneath you, returning to its standard marble and dirt flooring.</p>
+    <p>You look up as you see Rex, flailing and falling from the heavens. You look away right as he lands, but open your eyes too soon and see him bounce about 2 feet into the air.</p>
+    <br>
+    <p>You stand, as the emperor and Lars' holograms approach. Lars calls for silence in the crowd.</p>
+    <p>The emperor, in a deep and gravely voice that makes you feel like your bones are made of ice, speaks.</p>
+    <p>"It is at long last someone ended the 65 year reign of Rex. Despicable."</p>
+    <p>You can hear a pin drop, as the audience understands how big of a moment this is. Most of which have never heard him speak before.</p>
+    <p>"Kill him."</p>
+    <br>
+    <p>You look at the pile of man in front of you, and can see that Rex is still breathing, somehow.</p>
+    <p>You oblige.</p>
+    <br>
+    <h3><strong>END</strong></h3>
+    <br>
+    <form action="/ending-form" method="POST" onsubmit="setUrl()">
+      <input type="hidden" id="url" name="url">
+      <input type="hidden" id="choice" name="choice" value="">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  #endif
+</body>
+</html>

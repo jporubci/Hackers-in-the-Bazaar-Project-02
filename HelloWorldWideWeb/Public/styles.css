@@ -1,0 +1,19 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+input, select {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+label {
+    color: #ddd;
+}
+
+input[type="submit"] {
+    background-color: #444;
+    color: #fff;
+}

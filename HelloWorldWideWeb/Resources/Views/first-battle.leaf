@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>#(title)</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    function setUrl() {
+      document.getElementById('url').value = window.location.href;
+    }
+  </script>
+</head>
+<body>
+  <h1>#(title)</h1>
+  <h3><strong>Character Details:</strong></h3>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <td>#(characterName)</td>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <td>#(characterGender)</td>
+    </tr>
+    <tr>
+      <th>Fighting Specialty</th>
+      <td>#(fightingSpecialty)</td>
+    </tr>
+    <tr>
+      <th>Armor Class</th>
+      <td>#(armorClass)</td>
+    </tr>
+    <tr>
+      <th>Home Planet</th>
+      <td>#(homePlanet)</td>
+    </tr>
+    <tr>
+      <th>Weapon</th>
+      <td>#(weapon)</td>
+    </tr>
+    <tr>
+      <th>Money</th>
+      <td>#(money)</td>
+    </tr>
+    <tr>
+      <th>Inventory</th>
+      <td>#(inventory)</td>
+    </tr>
+  </table>
+  <br>
+  <p>The keyboard, as broken as it is, has seen a multitude of people just like you. You hope it isn't the last one.</p>
+  <p>The guard escorts you further down the halls, as they get wider and more elaborate, etched with marble and grandiose depictions of games past. You recognize one of the murals as Hexar, legend in your world. Never lost a single fight. He was a lazer trident specialist, and was so beloved that his freedom was expressly called for on retirement by The Emperor himself.</p>
+  <p>You start to notice commoners, mainly families of the other inmates, talking with guards who are generally pissed about being down here, and not up there enjoying the bloody merriment.</p>
+  <p>You are being marched directly towards Arce de Victorius, bypassing the other holding cells that house people from every section of the empire, and some from places that are about to be part of it.</p>
+  <p>The Arch is beautiful, white and red marble interlaced with banners held by light fixtures. It is absolutely ginormous, maybe over 200 feet tall, and you can see the orange sunlight beaming through it.</p>
+  <p>You are forced into a line behind around 200 other inmates. The variety of people is dulled by the monotony of the dark inmate regalia. The person in front of you's back spikes ripped a hole in the shirt what looks like a long time ago. You can hear her grunt with discomfort as the line is pushed forwards.</p>
+  <p>As you pass through the Arch, your ears start ringing due to the sheer volume. The crowd roars as they see the hundreds of inmates pour into the arena. There are definitely more than a million people in attendance, maybe more with the new expansions. The band starts with the sound of an extremely distorted electric guitar, booming into your ears as you look around. This is it, you tell yourself. This might be where you die.</p>
+  <br>
+  <p>Ears ringing, you are coralled by multiple guards over to the west side of the arena. As you look up, the nearby nebula's light seems to stretch into the darkness. It's absolutely beautiful, and a stark contrast from the dirty floor your feet have still not become accustomed to.</p>
+  <p>You are put into a line of people, cuffed hands behind your back, a guard's dusty gloves holding them. The music starts to subside, and then is quickly snuffed out by the booming voice of Lars, the games announcer. His body is projected in the middle of the arena. He looks to be absolutely ripped. He was a former gladiator, turned show host. You know his muscles don't actually look like that - holograms are notoriously easy to manipulate, even in a live setting.</p>
+  <p>As your thoughts wander through Lars' pandering, you finally snap out of it when he starts announcing the rules.</p>
+  <p>"IIIINNNNN the WEST CORNER, we have the newest and most fearsome batch of gladiators from #(homePlanet)"</p>
+  <p>The crowd erupts with applause and boos, obviously a mixed crowd.</p>
+  <p>"AAAAAAAND in the EAST CORNER, give it up for some of the last remnants of The Ganinite Federation! Fearsome, proud!"</p>
+  <p>The crowd is extremely less enthusastic about the Ganinites, as a flood of boos from the stadium and profanity from the section directly behind you erupts, ringing your already tired ears.</p>
+  <p>You finally understand what is going on. You were too mind melted from the music and lack of food that you failed to realize - this is a mock battle. You look down your line of gladiators, and all of you are wearing some sort of red identifier. Be it a tattered toga, too large loincloth, or military issue hat.</p>
+  <p>Across the immense stadium you can barely make out the green armaments that the Ganinites are wearing.</p>
+  <p>"NOOOWW, this is a battle for the ages! Take the opposing leader's crown by force, or die trying! HAAAHA!"</p>
+  <p>The general crowd does not find that as funny as Lars does, but the emperor's box laughter can be heard through the whole arena, due to Lars' microphone being set too high.</p>
+  <p>You scan for the emperor's box, but as you do you feel the guard behind you's hands let go momentarily, before slamming down on your head.</p>
+  <p>Your mind rages, and as you whip your head around to scream at the guard, you feel that your head moves slightly slower and feels heavier.</p>
+  <p>You look to the left and right, and realize you are dead center in the line of gladiators. You are the king.</p>
+  <p>Your face turns about six different shades of varying colors before you expel the contents of your stomach on the dirt.</p>
+  <p>The guards release your cuffs first, as the shield barrier comes down from the ceiling, closing off your line of sight from the Ganinites. They are setting up the battlefield.</p>
+  <p>You are given slightly more shiny armor than your last fight, gilded in imperial pyrite. They want everyone in the dang stadium to know you are the target.</p>
+  <br>
+  <p>You are given your trusty #(weapon) by the guard behind you while your slight concussion beams through your skull.</p>
+  <p>"The Legionaires are ruled by a gladiator who has had one fight of prior experience, from #(homePlanet), give your round of applause to #(characterName)"</p>
+  <p>The crowd moderately yells in approval.</p>
+  <p>"AAAND, heading the Ganinites, Ghartaaaaaaaaaaaaaa Mindslayerrrrrrrrr!"</p>
+  <p>The crowd erupts in boos.</p>
+  <br>
+  <p>"FIIIIIIIIIIIIIIIIIIIIIIIIIIGHT"</p>
+  <br>
+  <p>The shields instantly evaporate, along with Lars' hologram, and before you are the remnants of a burned down shell of a star cruiser and the scattered pieces of an Earth-era castle, currently partially on fire. You know there must be some particularly useful weapons scattered in there.</p>
+  <p>You and your gladiators start charging, before you are hit square in the face with reality. Stun beams and arrows alike whiz past your head, some so close that the wind messes with your hair.</p>
+  <p>You realize how high priority of a target you are as you dive behind the nearest section of broken castle wall. You can hear the screams of both imperialists and Ganinites alike, with the crowd hemming and hawing at some particular bloodshed you cannot see.</p>
+  <br>
+  <form action="/first-battle-form" method="POST" onsubmit="setUrl()">
+    <label for="choice">Choice:</label>
+    <select id="choice" name="choice" required>
+      <option value="" disabled selected></option>
+      <option value="option1">Go for the Ganinite queen</option>
+      <option value="option2">Acquire more weapons and resources</option>
+    </select>
+    <input type="hidden" id="url" name="url">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
